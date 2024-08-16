@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="nav-section-wrapper">
+      <div class="nav-container-wrapper">
+        <h5>CloverCape</h5>
+        <ul>
+          <li class="active">
+            <a href="index.html" onclick="toggleBorder(this)">Home</a>
+          </li>
+          <li>
+            <a href="service.html" onclick="toggleBorder(this)">Services</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="toggleBorder(this); scrollToSection('section1')"
+              >Clients</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="toggleBorder(this); scrollToSection('section2')"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <button onclick="toggleMenus()" class="menu-button">
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+      <div class="child-nav-container">
+        <ul>
+          <li class="active">
+            <a href="index.html" onclick="toggleBorders(this)">Home</a>
+          </li>
+          <li>
+            <a href="service.html" onclick="toggleBorders(this)">Services</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="toggleBorder(this); scrollToSection('section1')"
+              >Clients</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              onclick="toggleBorder(this); scrollToSection('section2')"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="banner-section-wrapper">
+      <div class="banner-section-container">
+        <div class="banner-content">
+          <div class="banner-para">
+            <h4>WELCOME TO CLOVERCAPE PROFESSIONAL SERVICES!</h4>
+            <p>
+              With Over 13 Years Of Experience In Human Resources, Recruitment,
+              Administration, And Lead Generation, We Have Proudly Served More
+              Than 125 Projects/Clients Worldwide. Our Commitment To Excellence,
+              Integrity, And Client Satisfaction Remains Unwavering.
+            </p>
+          </div>
+
+          <div class="banner-image">
+            <img src="assets/Group 49.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog-section-wrapper">
+      <div class="blog-container">
+        <div class="blog-vision">
+          <h5>Vision</h5>
+          <p>
+            Our vision is to provide unparalleled freelance services tailored to
+            meet the unique needs and objectives of each client. We strive to be
+            the go-to solution for businesses and individuals seeking reliable,
+            efficient, and results-driven support across various domains.
+          </p>
+        </div>
+        <div class="blog-vision">
+          <h5>Mission</h5>
+          <p>
+            Our mission is to deliver exceptional value to our clients through
+            our collective expertise, dedication, and commitment to excellence.
+            We aim to foster long-term partnerships built on trust, integrity,
+            and mutual success.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="heading-title-wrapper">
+      <div class="heading-title-container">
+        <h5>Services</h5>
+        <img src="assets/Line 1.png" />
+      </div>
+    </section>
+    <section class="service-section-wrapper">
+      <div class="service-container">
+        <div class="service-card">
+          <div class="card">
+            <div class="card-content">
+              <h5>Human Resource and Recruitment</h5>
+              <ul>
+                <li>Job application support</li>
+                <li>Candidate screening and interview coordination</li>
+                <li>HR management and personnel records maintenance</li>
+                <li>Payroll Administration and Processing</li>
+                <li>Personnel Records Management and Compliance</li>
+                <li>HR Consulting for Small Businesses</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h5>
+                Lead Generation and<br />
+                Marketing
+              </h5>
+              <ul>
+                <li>Market research and analysis</li>
+                <li>Lead list building and management</li>
+                <li>Outreach strategy development</li>
+                <li>Social Media Management and Engagement</li>
+                <li>
+                  Delivering actionable insights on market trends and consumer
+                  behavior for strategic decision-making.
+                </li>
+                <li>
+                  Tailoring outreach plans across various channels to optimize
+                  lead engagement
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h5>Administrative / Virtual Assistant Support</h5>
+              <ul>
+                <li>Founder's office management</li>
+                <li>Executive assistance</li>
+                <li>Project Management Support</li>
+                <li>Admin Support</li>
+                <li>
+                  Scheduling appointments, meetings, and events, and
+                  coordinating with relevant parties to avoid scheduling
+                  conflicts
+                </li>
+                <li>
+                  Conducting research on various topics as needed, compiling
+                  information into concise reports or summaries for
+                  decision-making purposes
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h5>
+                Data entry and online <br />
+                research
+              </h5>
+              <ul>
+                <li>Data Entry and Research Services</li>
+                <li>Data Verification and Organization</li>
+                <li>Document Services and Reporting</li>
+                <li>Data Cleansing</li>
+                <li>Database Maintenance</li>
+                <li>Market Research</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h5>Social Media Management and Content Creation:</h5>
+              <ul>
+                <li>Platform-Specific Social Media Content Creation</li>
+                <li>Weekly Blog Post Creation</li>
+                <li>Email Newsletter Writing and Distribution</li>
+                <li>Community Engagement</li>
+                <li>
+                  Social Media Analytics: Analyzing social media performance
+                  metrics to track engagement, reach, and conversions, and
+                  providing insights to optimize content strategy.
+                </li>
+                <li>
+                  Planning and scheduling social media posts, blog articles, and
+                  email newsletters in advance to maintain a consistent and
+                  cohesive content strategy.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form-section-wrapper" id="section2">
+      <div class="form-container">
+        <div class="form-content">
+          <div class="form-para">
+            <div class="oval">
+              <img src="assets/chat-round.png" />
+            </div>
+            <div class="child-para">
+              <h4>
+                Ready to elevate your business or project? Let's connect for a
+                personalized consultation.
+              </h4>
+              <p>
+                As a seasoned freelancer, I'm here to provide tailored solutions
+                to meet your unique needs and goals. Reach out today and let's
+                take the next step together."
+              </p>
+            </div>
+          </div>
+
+          <div class="child-form">
+            <div class="name-box">
+              <form class="name-information" action="submit.php" method="POST">
+                <p class="name">Name</p>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-input"
+                  placeholder="i.e. John Doe"
+                  required
+                />
+                <p class="name">Email</p>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="i.e. john@mail.com"
+                  required
+                />
+                <p class="name">Phone</p>
+                <input
+                  type="tel"
+                  name="country_code"
+                  title="Please enter a valid phone number"
+                  pattern="[0-9]{10}"
+                  class="form-input"
+                  placeholder="i.e. 123-456-7890"
+                  maxlength="10"
+                  required
+                />
+
+                <p class="name">What service do you need?</p>
+                <select
+                  name="service"
+                  class="dropdown"
+                  required
+                  onchange="updateTextColor(this)"
+                  id="service"
+                >
+                  <option value="" disabled selected>Select a service</option>
+                  <option value="1" class="option-select">Service 1</option>
+                  <option value="2" class="option-select">Service 2</option>
+                  <option value="3" class="option-select">Service 3</option>
+                </select>
+                <button type="submit" class="button-book">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client-title-wrapper" id="section1">
+      <div class="client-title-container">
+        <h5>Clients</h5>
+        <img src="assets/Line 1.png" />
+      </div>
+    </section>
+    <section class="client-section">
+      <div class="client-message">
+        <div class="client-images">
+          <div class="image-list">
+            <div class="firstrow-images">
+              <img src="assets/Alfalogo 1.png" />
+              <img src="assets/Beez 1.png" />
+              <img src="assets/Avicrew+Graphic 1.png" />
+              <img src="assets/1631354593300 1.png" />
+              <img src="assets/future_sky_equipment_llc__logo 1.png" />
+            </div>
+
+            <div class="secondrow-images">
+              <img src="assets/Blue Cart 1.png" />
+              <img src="assets/dubai_sensor1_logo 1.png" />
+              <img src="assets/hriminnovation_logo 1.png" />
+              <img src="assets/checkpoint_systems_logo 1.png" />
+              <img
+                src="assets/Tour Local logo_2020  orange on clear SMALL 1.png"
+              />
+            </div>
+
+            <div class="thirdrow-images">
+              <img src="assets/silverlight_research_logo 1.png" />
+              <img src="assets/outplayhq_logo 1 (1).png" />
+              <img src="assets/Trishulent 1.png" />
+              <img src="assets/Veeva 1.png" />
+              <img src="assets/wynter_logo 1.png" />
+              <img src="assets/WG Logo (1) 1.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-title-wrapper">
+      <div class="client-title-container">
+        <h5>Testimonial</h5>
+        <img src="assets/Line 1.png" class="image" />
+      </div>
+    </section>
+    <section class="testimonial-section-wrapper">
+      <div class="testimonial-container">
+        <div class="para">
+          <p id="testimonial-text"></p>
+        </div>
+        <img src="assets/klein.png" class="klein-img" />
+        <h5 id="testimonial-author">Ilan Klein</h5>
+        <div class="slider-controls">
+          <button onclick="prevTestimonial()">
+            <img src="assets/Less than.png" />
+          </button>
+          <div class="centered-text">
+            <span>/6</span>
+          </div>
+          <button onclick="nextTestimonial()">
+            <img src="assets/More Than.png" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="footer-section-wrapper">
+      <div class="footer-container">
+        <div class="clover">
+          <div class="child-clover">
+            <a href="index.html"> <h5>CloverCape</h5></a>
+            <div class="mail">
+              <p>
+                Our commitment to excellence, integrity, and client satisfaction
+                remains unwavering.
+              </p>
+              <p>
+                Email:
+                <a href="mailto:rohinijerind@gmail.com"
+                  >rohinijerind@gmail.com</a
+                >
+              </p>
+              <p>Ph: +91 83007 97588 | +1 559 823 5221</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="child-menu">
+          <ul>
+            <li><h5>Menu</h5></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Clients</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="child-resource">
+          <ul>
+            <li><h5>Services</h5></li>
+            <li><a href="/">Human Resource and Recruitment</a></li>
+            <li><a href="/">Lead Generation and Marketing</a></li>
+            <li><a href="/">Administrative / Virtual Assistant Support</a></li>
+            <li><a href="/">Data entry and online research</a></li>
+            <li>
+              <a href="/">Social Media Management and Content Creation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="footer-hr" />
+      <div class="media">
+        <div>
+          <p class="year">© 2024</p>
+        </div>
+        <div class="icons">
+          <a
+            href="https://www.linkedin.com/in/rohinimeena-v-08346821a/"
+            target="_blank"
+          >
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
